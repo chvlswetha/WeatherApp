@@ -1,5 +1,5 @@
 function getWeather() {
-    const apiKey = 'cf001e17ab301281a144ed9e901c84d0';
+    const apiKey = 'Your-API-Key';
     const city = document.getElementById('city').value;
 
     console.log("City",city);
@@ -153,7 +153,7 @@ function getHistory() {
         return;
     }
 
-    const hiskey = '5ELZLG5ARP8URQ9BZ775TXT62';
+    const hiskey = 'Your-API-Key';
     const historyUrl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}/${fromEl}/${toEl}/?key=${hiskey}`;
 
     const historyheader = document.getElementById('history-heading');
