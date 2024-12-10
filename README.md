@@ -17,6 +17,7 @@ Developed a web application that interacts with the OpenWeather API  to display 
 2) User Interface.
  > Design a simple and intuitive UI.
  --------I designed a single page application with a simple user interface, based on Html and CSS stylesheets. I added a Weather image background to the page and attributed the image source within the app.
+
 > Implement a search functionality where users can input a city name to retrieve weather data.
 ---------The App takes a city name as the input and retrieves the weather data for the current date.
 The App calls OpenWeather map Api for the current day temperature and renders it with the help of java script code. Additionally, the App displays the Hourly forecast in 3-hour intervals for the current day.
