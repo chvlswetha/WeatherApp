@@ -30,8 +30,10 @@ Since the OpenWeather API charges for Historical data, I called Visual Crossing 
 ------------The Temperature, Humidity and Windspeed are displayed for a given city for both the current day and the past days that are queried for.
 
 3) Functionality
+   
 > Use the OpenWeather API to fetch weather data based on user input.
  --------I used the OpenWeather API. Based on the city name and the API Key, the API fetches the Json response and the underlying code displays the data on the App.
+
 > Handle API responses and errors gracefully.
  --------I added basic error handling for both the city name and the date range filters for the historical weather. The error handling for city name includes a check for empty/blank city name. For Date range, I added error handling – 1) ‘From’ date should be earlier than ‘To’ date. 2) ‘From’ Date and ‘To’ date range should be within one week for easy readability.
 
